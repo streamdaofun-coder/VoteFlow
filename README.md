@@ -137,8 +137,6 @@ Room Economy Tools – charts, analytics, leaderboards.
 
 🛠 Technical Notes
 
-Platform: Wix Studio (frontend).
-
 Embedded Scripts: HTML/JS for custom micro-interactions (e.g., CA hover).
 
 Structure:
