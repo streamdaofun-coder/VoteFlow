@@ -46,28 +46,38 @@ VoteFlow combines three core ideas:
   - 200k coins = 2 votes  
   - 1M coins = 10 votes  
 
-### 5. Grow Together  
-- As rooms gain holders, governance becomes more active.  
-- Verified rooms evolve into stronger ecosystems, driven by community decisions.  
-
 ---
 
 ## 📊 Governance Specifications  
 
-- **Voting Power**  
-  - 1 vote requires **100,000 coins**.  
-  - Votes scale linearly with holdings.  
+### Voting Power  
+- 1 vote requires **100,000 coins**.  
+- Votes scale linearly with holdings.  
 
-- **Proposal Creation**  
-  - Requires **5,000,000 coins**.  
-  - Only holders above this threshold can submit.  
+### Proposal Creation  
+- Requires **5,000,000 coins**.  
+- Only holders above this threshold can submit a proposal.  
 
-- **Proposal Lifecycle**  
-  - Draft → Submission → Community Voting → Accepted/Rejected.  
+### Voting Process (Step by Step)  
+1. **Proposal Submission**  
+   - A holder with ≥ 5M coins submits a proposal.  
+   - If another proposal is active, the new one is added to the **queue**.  
 
-- **Transparency**  
-  - All votes & proposals are public.  
-  - Verified rooms display an action log.  
+2. **Active Voting Period**  
+   - Each proposal stays open for **12 hours**.  
+   - During this time, eligible holders can cast their votes.  
+   - Voting is simple: **Yes / No** (or multiple-choice if specified).  
+   - Votes are weighted by the number of coins held.  
+
+3. **Closing & Results**  
+   - After 12 hours, the proposal automatically **closes**.  
+   - Results are calculated by summing all weighted votes.  
+   - Outcome: **Accepted** (if Yes > No) or **Rejected**.  
+   - The next proposal in the queue automatically moves into voting.  
+
+### Transparency  
+- All proposals, votes, and results are public.  
+- Verified rooms display a clear **governance log** with past decisions.  
 
 ---
 
@@ -99,7 +109,8 @@ VoteFlow combines three core ideas:
 4. The room now shows verified with a badge + border.  
 5. Bob holds 200k coins → he gains 2 votes.  
 6. Carol holds 5M coins → she creates a proposal.  
-7. The community votes → proposal passes → decision implemented.  
+7. The community votes for 12 hours.  
+8. The proposal closes → results are published → the next proposal in queue starts.  
 
 ---
 
