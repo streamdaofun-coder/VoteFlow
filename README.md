@@ -127,11 +127,3 @@ VoteFlow combines three core ideas:
 
 ---
 
-## 🗺 Roadmap  
-
-- **Q4 2025** – Public MVP launch (Create, Claim, Explore)  
-- **Q1 2026** – Governance proposals live (vote + submit)  
-- **Q2 2026** – Gamification features  
-- **Q3 2026** – On-chain voting & integrations  
-
----
